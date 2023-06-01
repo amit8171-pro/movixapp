@@ -74,7 +74,7 @@ export default function App() {
               <Route path='/:mediaType/:id' element={<Detailes/>} />
               <Route path='/search/:query' element={<Searchresult/>} />
               <Route path='/explore/:mediaType' element={<Explore/>} />
-              <Route path='*' element={<pagenotfound/>} />
+              <Route path='*' element={<Pagenotfound/>} />
             </Routes>
             <Footer/>
           </BrowserRouter>
