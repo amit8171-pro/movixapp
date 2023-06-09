@@ -9,7 +9,7 @@ import Detailes from './pages/details/Detailes';
 import Explore from './pages/explore/Explore';
 import Searchresult from './pages/searchresult/Searchresult';
 import Footer from './components/footer/Footer';
-import { fetchDataFromApi } from './utils/Api';
+import { fetchDataFromApi } from './utils/api';
 
 
 

@@ -9,7 +9,7 @@ import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 import useFetch from "../../Hooks/useFetch";
-import { fetchDataFromApi } from "../../utils/Api";
+import { fetchDataFromApi } from "../../utils/api";
 
 let filters = {};
 
