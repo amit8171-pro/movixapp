@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { fetchDataFromApi } from './utils/Api'
 import { useSelector, useDispatch } from 'react-redux';
 import { getApiConfiguration, getGenres } from './store/homeSlice';
 import Header from './components/header/Header';
@@ -10,6 +9,7 @@ import Detailes from './pages/details/Detailes';
 import Explore from './pages/explore/Explore';
 import Searchresult from './pages/searchresult/Searchresult';
 import Footer from './components/footer/Footer';
+import { fetchDataFromApi } from './utils/Api';
 
 
 
@@ -81,3 +81,4 @@ export default function App() {
     </div>
   )
 }
+
