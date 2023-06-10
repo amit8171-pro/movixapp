@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 import "./style.scss";
 
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../components/contentwrapper/ContentWrapper";
 import useFetch from "../../../Hooks/useFetch";
 import Genres from "../../../components/genres/Genres";
 import Circlereating from "../../../components/circlereating/Circlereating";
