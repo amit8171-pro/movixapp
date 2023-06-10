@@ -11,7 +11,7 @@ import Circlereating from "../../../components/circlereating/Circlereating";
 import Lazyimg from "../../../components/lazyloadimg/Lazyimg";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../Playicons";
-import VideoPupUp from "../../../components/videopopup/VideoPupUp";
+import VideoPupUp from "../../../components/videopopup/VideoPupup";
 
 
 
