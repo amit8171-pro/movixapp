@@ -5,7 +5,7 @@ import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import "./style.scss";
 import ContentWrapper from "../contentwrapper/ContentWrapper";
-import logo from "../../a
+import logo from "../../assets/movix-logo.svg";
 
 
 
